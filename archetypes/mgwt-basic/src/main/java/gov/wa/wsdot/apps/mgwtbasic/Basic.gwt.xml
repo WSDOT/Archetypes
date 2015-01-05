@@ -23,8 +23,6 @@
 
   <!-- Specify the app entry point class.                         -->
   <entry-point class='gov.wa.wsdot.apps.mgwtbasic.client.BasicEntryPoint'/>
-
-  <add-linker name="xsiframe"/>
   
   <!-- Specify the paths for translatable code -->
   <source path='client'/>

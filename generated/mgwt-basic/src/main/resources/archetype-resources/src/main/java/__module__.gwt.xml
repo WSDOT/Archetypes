@@ -26,8 +26,6 @@
 
   <!-- Specify the app entry point class.                         -->
   <entry-point class='${package}.client.${module}EntryPoint'/>
-
-  <add-linker name="xsiframe"/>
   
   <!-- Specify the paths for translatable code -->
   <source path='client'/>
