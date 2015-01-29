@@ -15,4 +15,8 @@ the needed boilerplate code and settings to get you up and running with MGWT qui
     <td><a href="https://github.com/wsdot/Archetypes/tree/master/archetypes/mgwt-basic">MGWT Basic</a></td>
     <td>Basic MGWT maven setup</td>
   </tr>
+  <tr>
+    <td><a href="https://github.com/wsdot/Archetypes/tree/master/archetypes/mgwt-basic-swipemenu">MGWT Basic SwipeMenu</a></td>
+    <td>Basic MGWT with SwipeMenu maven setup</td>
+  </tr>
 </table>

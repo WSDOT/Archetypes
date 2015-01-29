@@ -1,0 +1,29 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder
+    xmlns:ui="urn:ui:com.google.gwt.uibinder"
+    xmlns:g="urn:import:com.google.gwt.user.client.ui"
+    xmlns:mgwt="urn:import:com.googlecode.mgwt.ui.client.widget"
+    xmlns:local="urn:import:${package}.client.widget">
+
+    <ui:style>
+    </ui:style>
+
+    <mgwt:panel.flex.RootFlexPanel>
+        <mgwt:header.HeaderPanel>
+            <local:button.image.MenuImageButton ui:field="menuButton" />
+            <mgwt:panel.flex.FlexSpacer />
+            <mgwt:header.HeaderTitle>MGWT Basic SwipeMenu</mgwt:header.HeaderTitle>
+            <mgwt:panel.flex.FlexSpacer />
+            <mgwt:panel.flex.FixedSpacer />
+        </mgwt:header.HeaderPanel>
+
+        <mgwt:panel.scroll.ScrollPanel ui:field="scrollPanel" scrollingEnabledX="false">
+            <mgwt:list.celllist.CellList ui:field="cellList" />
+        </mgwt:panel.scroll.ScrollPanel>
+
+    </mgwt:panel.flex.RootFlexPanel>
+    
+</ui:UiBinder>

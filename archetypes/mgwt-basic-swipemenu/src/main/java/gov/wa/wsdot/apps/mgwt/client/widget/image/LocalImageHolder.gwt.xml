@@ -1,0 +1,23 @@
+<module>
+  <replace-with class="gov.wa.wsdot.apps.mgwt.client.widget.image.LocalImageHolderDefaultAppearance">
+    <when-type-is class="gov.wa.wsdot.apps.mgwt.client.widget.image.LocalImageHolder.LocalImageHolderAppearance" />
+  </replace-with>
+  <replace-with class="gov.wa.wsdot.apps.mgwt.client.widget.image.LocalImageHolderDefaultHighAppearance">
+    <when-type-is class="gov.wa.wsdot.apps.mgwt.client.widget.image.LocalImageHolder.LocalImageHolderAppearance" />
+    <any>
+      <when-property-is name="mgwt.density" value="high" />
+    </any>
+  </replace-with>
+  <replace-with class="gov.wa.wsdot.apps.mgwt.client.widget.image.LocalImageHolderDefaultXHighAppearance">
+    <when-type-is class="gov.wa.wsdot.apps.mgwt.client.widget.image.LocalImageHolder.LocalImageHolderAppearance" />
+    <any>
+      <when-property-is name="mgwt.density" value="xhigh" />
+    </any>
+  </replace-with>
+  <replace-with class="gov.wa.wsdot.apps.mgwt.client.widget.image.LocalImageHolderDefaultXXHighAppearance">
+    <when-type-is class="gov.wa.wsdot.apps.mgwt.client.widget.image.LocalImageHolder.LocalImageHolderAppearance" />
+    <any>
+      <when-property-is name="mgwt.density" value="xxhigh" />
+    </any>
+  </replace-with>
+</module>

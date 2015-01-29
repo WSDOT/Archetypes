@@ -1,0 +1,26 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<module>
+  <replace-with class="${package}.client.widget.image.LocalImageHolderDefaultAppearance">
+    <when-type-is class="${package}.client.widget.image.LocalImageHolder.LocalImageHolderAppearance" />
+  </replace-with>
+  <replace-with class="${package}.client.widget.image.LocalImageHolderDefaultHighAppearance">
+    <when-type-is class="${package}.client.widget.image.LocalImageHolder.LocalImageHolderAppearance" />
+    <any>
+      <when-property-is name="mgwt.density" value="high" />
+    </any>
+  </replace-with>
+  <replace-with class="${package}.client.widget.image.LocalImageHolderDefaultXHighAppearance">
+    <when-type-is class="${package}.client.widget.image.LocalImageHolder.LocalImageHolderAppearance" />
+    <any>
+      <when-property-is name="mgwt.density" value="xhigh" />
+    </any>
+  </replace-with>
+  <replace-with class="${package}.client.widget.image.LocalImageHolderDefaultXXHighAppearance">
+    <when-type-is class="${package}.client.widget.image.LocalImageHolder.LocalImageHolderAppearance" />
+    <any>
+      <when-property-is name="mgwt.density" value="xxhigh" />
+    </any>
+  </replace-with>
+</module>
