@@ -8,15 +8,16 @@ Good starting point if you are new to MGWT and want an app with a side navigatio
 
 ##Maven Archetype Usage
 
-1. Goto the directory where you want the project.
-2. Rename the parameter `-DgroupId=com.example.mgwt.app` to a package naming scheme that works for you.
-3. Rename the parameter `-DartifactId=mgwt-basic-example` to a project title you like.
-4. Rename the parameter `-Dmodule=App` to a name that starts with a capital. Name it like `MyApp` or `MyProject`.
-5. Run the mvn archetype generator below.
+1. Clone the repo and then`cd Archetypes/generated/mgwt-basic-swipemenu` and type `mvn install`
+2. Goto the directory where you want to create your project.
+3. Rename the parameter `-DgroupId=com.example.mgwt.app` to a package naming scheme that works for you.
+4. Rename the parameter `-DartifactId=mgwt-basic-example` to a project title you like.
+5. Rename the parameter `-Dmodule=App` to a name that starts with a capital. Name it like `MyApp` or `MyProject`.
+6. Run the mvn archetype generator below.
 
 ```
 mvn archetype:generate \
--DarchetypeRepository=http://data.wsdot.wa.gov/archetypes/mvn-repo \
+-DarchetypeCatalog=local \
 -DarchetypeGroupId=gov.wa.wsdot.data.archetypes \
 -DarchetypeArtifactId=mgwt-basic-swipemenu-archetype \
 -DarchetypeVersion=1.0-SNAPSHOT \
