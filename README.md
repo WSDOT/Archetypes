@@ -1,10 +1,9 @@
-#MGWT Maven Archetypes
+# MGWT Maven Archetypes #
 
 * Creating a project from an archetype can save a lot of time. The following archetypes aid in project creation by setting up much of
 the needed boilerplate code and settings to get you up and running with MGWT quickly.
 
-##Archetypes in this Project 
-* Please refer to [Eclipse Maven Import Instructions](http://c.gwt-examples.com/home/maven/ide-import/eclipse) for detailed instructions on how to import a Maven project into Eclipse.
+## Archetypes in this Project ##
 
 <table>
   <tr>
